@@ -3,6 +3,6 @@ resource "aws_instance" "dev" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "pavan"
+    Name = "pavan-ec2"
   }
 }               
